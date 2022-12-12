@@ -1,0 +1,6 @@
+Resources:
+  NotebookInstance:
+    Type: AWS::SageMaker::NotebookInstance
+    Properties:
+      InstanceType: ml.t2.medium
+      RoleArn: arn:aws:iam::623127157773:role/sagemaker-role

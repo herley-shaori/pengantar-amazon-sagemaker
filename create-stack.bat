@@ -1,0 +1,1 @@
+aws cloudformation create-stack --stack-name jhbasdhjasd --template-body file://notebook-instance.yaml --capabilities CAPABILITY_NAMED_IAM
