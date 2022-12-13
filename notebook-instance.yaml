@@ -1,4 +1,8 @@
 Resources:
+  S3Data:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: pengantar-sagemaker
   NotebookInstance:
     Type: AWS::SageMaker::NotebookInstance
     Properties:
